@@ -12,5 +12,6 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+   return View::make('admin.master.master');
+    //return View::make('hello world');
 });
